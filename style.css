@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    height: 7vh;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.left{
+    letter-spacing: 0.7rem;
+    font-size: 2rem;
+
+}
+.right{
+    display: flex;
+    gap:1rem;
+    letter-spacing: 0.4rem;
+}
+.hero{
+    display: flex;
+    background-image:url(fooddddd.jpg);
+    height: 90vh;
+    align-items:end;
+    padding-bottom: 5vh;
+    font-size: 2rem;
+    letter-spacing: 1vh;
+}
+.aboutcatering{
+    display: flex;
+    margin-top: 10vh;
+    margin-right: 10vh;
+    height: 100vh;
+}
+.food2{
+    flex-basis: 50%;
+    margin-left: 10vh;
+}
+.foodabout{
+    flex-basis: 50%;
+}
+.mainhed{
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+}
+.subhed{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.subdata{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
+.about{
+    font-size: 3rem;
+    margin-top: 20vh;
+}
+.mainmenu{
+    font-size: 3rem;
+    margin-top: 10vh;
+}
+.aboutmenu{
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+}
+.menu{
+    flex-basis: 50%;
+    margin-left: 20vh;
+    height: 100vh;
+}
+.food3{
+    flex-basis: 50%;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content: left;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    justify-content: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.h4{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content: left;
+}
+.h5{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    justify-content: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.h6{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content: left;
+}
+.h7{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    justify-content: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.h8{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content: left;
+}
+.h9{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    justify-content: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.h10{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content: left;
+}
+.h11{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    justify-content: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.contact{
+    margin-left: 20vh;
+    margin-top: 20vh;
+    height: 100vh;
+}
+.p1{
+    display: flex;
+    font-size: 3rem;
+}
+.p2,.p3,.p4,.p5,.p6,.p7,.p8{
+    display: flex;
+    margin-top: 3vh;
+    width: 90%;
+}
+.p3{
+    font-size: 2rem;
+    color: lightslategray;
+}
+.p5,.p6,.p7,.p8{
+    padding: 3vh;
+    
+}
+button{
+    margin-top: 2vh;
+    padding: 2vh ;m
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
